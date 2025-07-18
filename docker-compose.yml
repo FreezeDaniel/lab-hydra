@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  kali_attacker:
+    image: kalilinux/kali-rolling
+    container_name: kali_attacker
+    stdin_open: true
+    tty: true
+    networks:
+      - red_kali
+    command: sleep infinity
+
+  kali_victim:
+    image: kalilinux/kali-rolling
+    container_name: kali_victim
+    stdin_open: true
+    tty: true
+    networks:
+      - red_kali
+    command: sleep infinity
+
+networks:
+  red_kali:
+    driver: bridge

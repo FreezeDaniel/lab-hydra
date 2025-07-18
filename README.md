@@ -189,7 +189,7 @@ Thumbs.db
 
 ## ✅ Créditos
 
-Daniel Freezed, 2025
+FreezeDaniel, 2025
 Hydra por van Hauser/THC
 
 ---
